@@ -1,0 +1,8 @@
+* git add 不会将空目录加入代码管理，因此很多人会在空目录下创建一个空文件
+* git 管理中文名文件会乱码，设置 
+git config --global core.quotepath false 就可以正常 add 和 commit 了，
+* windows 上git bash 显示中文乱码，需要设置下
+
+1. 打开Git Bash后，对窗口右键->Options->Text->Locale改为zh_CN，Character set改为UTF-8
+
+2. 关闭再打开就可以啦。输出中文字符，中文路径都没有问题啦
